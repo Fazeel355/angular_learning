@@ -1,0 +1,111 @@
+<app-header></app-header>
+<body>
+    <div class="bg-gray-100 py-6 sm:py-8 lg:py-12">
+        <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+            <!-- text - start -->
+            <div class="mb-10 md:mb-16">
+                <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Get in touch</h2>
+
+                <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Sunt dicta totam necessitatibus harum nobis fugiat non quod molestias
+                    maxime neque!</p>
+            </div>
+            <!-- text - end -->
+
+            <!-- form - start -->
+            <form class="mx-auto grid max-w-screen-md gap-4 sm:grid-cols-2">
+                <div>
+                    <label for="first-name" class="mb-2 inline-block text-sm text-gray-800 sm:text-base">First
+                        name*</label>
+                    <input name="first-name"
+                        class="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring" />
+                </div>
+
+                <div>
+                    <label for="last-name" class="mb-2 inline-block text-sm text-gray-800 sm:text-base">Last
+                        name*</label>
+                    <input name="last-name"
+                        class="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring" />
+                </div>
+
+                <div class="sm:col-span-2">
+                    <label for="company" class="mb-2 inline-block text-sm text-gray-800 sm:text-base">Company</label>
+                    <input name="company"
+                        class="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring" />
+                </div>
+
+                <div class="sm:col-span-2">
+                    <label for="email" class="mb-2 inline-block text-sm text-gray-800 sm:text-base">Email*</label>
+                    <input name="email"
+                        class="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring" />
+                </div>
+
+                <div class="sm:col-span-2">
+                    <label for="subject" class="mb-2 inline-block text-sm text-gray-800 sm:text-base">Subject*</label>
+                    <input name="subject"
+                        class="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring" />
+                </div>
+
+                <div class="sm:col-span-2">
+                    <label for="message" class="mb-2 inline-block text-sm text-gray-800 sm:text-base">Message*</label>
+                    <textarea name="message"
+                        class="h-64 w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring"></textarea>
+                </div>
+
+                <div class="flex items-center justify-between sm:col-span-2">
+                    <button
+                        class="inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">Submit</button>
+
+                    <span class="text-sm text-gray-500">*Required</span>
+                </div>
+
+                <p class="text-xs text-gray-400">By signing up to our newsletter you agree to our <a href="#"
+                        class="underline transition duration-100 hover:text-indigo-500 active:text-indigo-600">Privacy
+                        Policy</a>.</p>
+            </form>
+            <!-- form - end -->
+        </div>
+    </div>
+    <div class="bg-white py-6 sm:py-8 lg:py-12">
+        <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+            <div class="flex overflow-hidden rounded-lg bg-gray-100">
+                <!-- image - start -->
+                <div class="relative hidden bg-gray-200 sm:block sm:w-1/3 lg:w-1/2">
+                    <img src="https://images.pexels.com/photos/7915431/pexels-photo-7915431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        loading="lazy" alt="Photo by mymind"
+                        class="absolute inset-0 h-full w-full object-cover object-center" />
+                </div>
+                <!-- image - end -->
+
+                <!-- content - start -->
+                <div class="flex w-full items-center p-4 sm:w-2/3 sm:p-8 lg:w-1/2 lg:pl-10">
+                    <div class="flex w-full flex-col items-center sm:block">
+                        <div class="mb-4 sm:mb-8">
+                            <h2
+                                class="text-center text-xl font-bold text-indigo-500 sm:text-left sm:text-2xl lg:text-3xl">
+                                Get the latest updates</h2>
+                            <p class="text-center text-gray-500 sm:text-left">Sign up for our newsletter</p>
+                        </div>
+
+                        <form class="mb-3 flex w-full max-w-md gap-2 sm:mb-5">
+                            <input placeholder="Email"
+                                class="bg-gray-white w-full flex-1 rounded border border-gray-300 px-3 py-2 text-gray-800 placeholder-gray-400 outline-none ring-indigo-300 transition duration-100 focus:ring" />
+
+                            <button
+                                class="inline-block rounded bg-indigo-500 px-8 py-2 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">Subscribe</button>
+                        </form>
+
+                        <p class="text-center text-xs text-gray-400 sm:text-left">By signing up to our newsletter you
+                            agree to our <a href="#"
+                                class="underline transition duration-100 hover:text-indigo-500 active:text-indigo-600">Term
+                                of Service</a> and <a href="#"
+                                class="underline transition duration-100 hover:text-indigo-500 active:text-indigo-600">Privacy
+                                Policy</a>.</p>
+                    </div>
+                </div>
+                <!-- content - end -->
+            </div>
+        </div>
+    </div>
+</body>
+<app-footer></app-footer>
